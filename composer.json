@@ -1,0 +1,73 @@
+{
+    "name": "duyplus/fl-vietnamese",
+    "description": "Vietnamese language pack for Flarum",
+    "type": "flarum-extension",
+    "keywords": [
+        "extension",
+        "flarum",
+        "vietnamese",
+        "locale",
+        "translation"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nguyen Hoang Duy (duyplus)",
+            "email": "duyplusdz@gmail.com",
+            "role": "Translator",
+            "homepage": "https://duyplus.my.id"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/duyplus/fl-vietnamese/issues",
+        "source": "https://github.com/duyplus/fl-vietnamese"
+    },
+    "homepage": "https://duyplus.my.id",
+    "funding": [
+        {
+            "type": "website",
+            "url": "https://nhantien.momo.vn/0919993715"
+        }
+    ],
+    "require": {
+        "flarum/core": "^1.4"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        },
+        "flarum-extension": {
+            "title": "Vietnamese",
+            "category": "language",
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#00247d",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "vi",
+            "title": "Tiếng Việt"
+        },
+        "extiverse": {
+            "discuss": ""
+        },
+        "flarum-cli": {
+            "modules": {
+                "admin": false,
+                "forum": false,
+                "js": false,
+                "jsCommon": false,
+                "gitConf": true,
+                "githubActions": true,
+                "prettier": false,
+                "typescript": false,
+                "bundlewatch": false,
+                "backendTesting": false,
+                "editorConfig": true,
+                "styleci": true
+            }
+        }
+    }
+}
